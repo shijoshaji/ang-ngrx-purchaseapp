@@ -3,4 +3,6 @@ export interface car {
     carModel: string;
     carPrice: number;
     carRating: number;
+    carInventatoryStatus: string;
+    carImage?: string;
 };

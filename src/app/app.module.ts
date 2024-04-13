@@ -10,6 +10,8 @@ import { RatingModule } from 'primeng/rating';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LandingComponent, NavigationComponent } from './components';
+import { CommonModule } from '@angular/common';
+import { TagModule } from 'primeng/tag';
 
 
 @NgModule({
@@ -27,7 +29,8 @@ import { LandingComponent, NavigationComponent } from './components';
     CardModule,
     DataViewModule,
     RatingModule,
-    FormsModule
+    FormsModule, CommonModule,
+    TagModule
   ],
   providers: [],
   bootstrap: [AppComponent]
