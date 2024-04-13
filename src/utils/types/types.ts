@@ -1,4 +1,4 @@
-export interface car {
+type car = {
     carBrand: string;
     carModel: string;
     carPrice: number;
@@ -6,3 +6,9 @@ export interface car {
     carInventatoryStatus: string;
     carImage?: string;
 };
+
+
+type Cars = Array<car>;
+
+
+export { car, Cars };

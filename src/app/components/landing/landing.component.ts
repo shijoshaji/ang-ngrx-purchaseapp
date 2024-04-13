@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { Observable, of } from 'rxjs';
-import { car } from 'src/utils/types/types';
+import { Cars, car } from 'src/utils/types/types';
 
 
-type Cars = Array<car>;
+
 
 @Component({
   selector: 'app-landing',

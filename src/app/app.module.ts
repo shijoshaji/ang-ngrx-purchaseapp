@@ -9,7 +9,7 @@ import { DataViewModule } from 'primeng/dataview';
 import { RatingModule } from 'primeng/rating';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LandingComponent, NavigationComponent } from './components';
+import { CarListComponent, LandingComponent, NavigationComponent } from './components';
 import { CommonModule } from '@angular/common';
 import { TagModule } from 'primeng/tag';
 
@@ -18,7 +18,7 @@ import { TagModule } from 'primeng/tag';
   declarations: [
     AppComponent,
     NavigationComponent,
-    LandingComponent
+    LandingComponent,CarListComponent
   ],
   imports: [
     BrowserModule,
