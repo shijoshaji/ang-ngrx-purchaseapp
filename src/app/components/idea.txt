@@ -1,0 +1,4 @@
+what all components are needed 
+
+ - Landing/Home
+ 
